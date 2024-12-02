@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		ED8839262CF8437800604CD4 /* SoftwareRouter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoftwareRouter; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED88395B2CF8600500604CD4 /* SoftwareRouterCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoftwareRouterCore.xcodeproj; path = SoftwareRouterCore/SoftwareRouterCore.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +36,6 @@
 		ED88391D2CF8437800604CD4 = {
 			isa = PBXGroup;
 			children = (
-				ED88395B2CF8600500604CD4 /* SoftwareRouterCore.xcodeproj */,
 				ED8839272CF8437800604CD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,13 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				ED8839262CF8437800604CD4 /* SoftwareRouter */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ED88395C2CF8600500604CD4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,12 +97,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = ED8839272CF8437800604CD4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = ED88395C2CF8600500604CD4 /* Products */;
-					ProjectRef = ED88395B2CF8600500604CD4 /* SoftwareRouterCore.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				ED8839252CF8437800604CD4 /* SoftwareRouter */,
